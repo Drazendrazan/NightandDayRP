@@ -724,4 +724,40 @@ Config.Doors = {
 		['ObjName'] = 'maze_v_ilev_bk_vaultdoor',
 		['ObjCoords'] = vector3(-1307.587, -816.7253, 17.14)
 	 },
+	 [46] = {
+		['DoorName'] = 'Bobcat Door1',
+		['TextCoords'] = vector3(882.19177, -2258.54, 32.441696),
+		['Autorized'] = {
+		 [1] = 'police',
+		},
+		['Locking'] = false,
+		['Locked'] = true,
+		["Pickable"] = true,
+		["Distance"] = 2.0,
+		['ObjYaw'] = 175.0,
+		['ObjName'] = 'apa_v_ilev_ss_door7',
+		['ObjCoords'] = vector3(882.19177, -2258.54, 32.441696)
+	 },
+	 [47] = {
+		['DoorName'] = 'BobCat Door2',
+		['TextCoords'] = vector3(880.84234, -2264.812, 32.441673),
+		['Autorized'] = {
+		 [1] = 'police',
+		},
+		['Locking'] = false,
+		['Locked'] = true,
+		["Pickable"] = true,
+		["Distance"] = 1.0,
+		['ObjYaw'] = 175.0,
+		['ObjName'] = 'v_ilev_cd_door2',
+		['ObjCoords'] = vector3(880.84234, -2264.812, 32.441673),
+		['ObjCoords'] = vector3(880.84234, -2264.812, 32.441673)
+	 },
 }
+
+	 
+
+			
+
+	
+	
