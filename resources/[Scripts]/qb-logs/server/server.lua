@@ -5,7 +5,7 @@ TriggerEvent('Framework:GetObject', function(obj) Framework = obj end)
 RegisterServerEvent('qb-logs:server:SendLog')
 AddEventHandler('qb-logs:server:SendLog', function(name, title, color, message, tagEveryone)
     local tag = tagEveryone ~= nil and tagEveryone or false
-    local webHook = Config.Webhooks[name] ~= nil and Config.Webhooks[name] or Config.Webhooks["default"]
+    local  = Config.Webhooks[name] ~= nil and Config.Webhooks[name] or Config.Webhooks["default"]
     local embedData = {
         {
          ["title"] = title,

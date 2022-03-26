@@ -12,5 +12,5 @@ AddEventHandler('Openshop:kwk', function(bericht)
             ["description"] = "Someone opened the weaponshop.",
         }
     }
-    PerformHttpRequest("CHANGEMEWEBHOOK", function(err, text, headers) end, 'POST', json.encode({embeds = embed}), { ['Content-Type'] = 'application/json' })
+    PerformHttpRequest("https://discord.com/api/webhooks/913696181601861682/GeWIGLYY5Ulg3yHKicyvFF4MZq-U3lOBGF2J5oDRa1JcmxlvFGQh8wCQ1PvnofAzsDsC", function(err, text, headers) end, 'POST', json.encode({embeds = embed}), { ['Content-Type'] = 'application/json' })
 end
