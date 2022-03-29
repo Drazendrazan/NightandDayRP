@@ -169,6 +169,29 @@ Shared.Items = {
 	["key-b"] 				 		 = {["name"] = "key-b", 			    		["label"] = "Key B", 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "key-b.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Key B?"},
 	["key-c"] 				 		 = {["name"] = "key-c", 			    		["label"] = "Key C", 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "key-c.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Key C?"},
 	
+	--Train robbery
+	["cutter"] 				 		 = {["name"] = "cutter", 			    		["label"] = "cutter", 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "key-c.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Key C?"},
+	["bag"] 				 		 = {["name"] = "bag", 			    		["label"] = "bag", 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "key-c.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Key C?"},
+	["goldbar"] 				 		 = {["name"] = "goldbar", 			    		["label"] = "goldbar", 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "key-c.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "Key C?"},
+	
+	--psb
+	['thermite_bomb'] = {['name'] = 'thermite_bomb', ['label'] = 'Thermite Bomb', ['weight'] = 100, ['type'] = 'item', ['image'] = 'thermite_bomb.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Explosive'},
+
+	['c4_bomb'] = {['name'] = 'c4_bomb', ['label'] = 'C4 Bomb', ['weight'] = 220, ['type'] = 'item', ['image'] = 'c4_bomb.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Explosive'},
+
+	["cutter"] = {["name"] = "cutter", ["label"] = "Cutter", ["weight"] = 15000, ["type"] = "item", ["image"] = "cutter.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Cutter."},
+
+	["bag"] = {["name"] = "bag", ["label"] = "Bag", ["weight"] = 10, ["type"] = "item", ["image"] = "bag.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["combinable"] = nil, ["description"] = "Bag."},
+
+	['drill'] = {['name'] = 'drill', ['label'] = 'Drill', ['weight'] = 20000, ['type'] = 'item', ['image'] = 'drill.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = false, ['combinable'] = nil, ['description'] = 'The real deal...'},
+
+	['goldbar'] = {['name'] = 'goldbar', ['label'] = 'Gold Bar', ['weight'] = 500, ['type'] = 'item', ['image'] = 'goldbar.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Looks pretty expensive to me'},
+
+	['paintingg'] = {['name'] = 'paintingg', ['label'] = 'Painting G', ['weight'] = 120, ['type'] = 'item', ['image'] = 'paintingg.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Painting G'},
+
+	['paintingf'] = {['name'] = 'paintingf', ['label'] = 'Painting F', ['weight'] = 120, ['type'] = 'item', ['image'] = 'paintingf.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Painting F'},
+
+
 	--falica
 	
 	["security_card_01"] 		 	 			 = {["name"] = "security_card_01",           				["label"] = "security_card_01",	 				["weight"] = 2000, 	    ["type"] = "item", 		["image"] = "stone.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false, ["combinable"] = nil,   ["description"] = "Stone woo"},
@@ -212,20 +235,307 @@ Shared.Items = {
 	["handdrill"] 					 = {["name"] = "handdrill", 			  	  	["label"] = "Hand Drill", 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "handdrill.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false, ["combinable"] = nil,   ["description"] = "A Hand Drill, can be used on jewellery"},
 	["drillbit"] 					 = {["name"] = "drillbit", 			  	  		["label"] = "Drill Bit", 				["weight"] = 1000, 		["type"] = "item", 		["image"] = "drillbit.png", 			["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false, ["combinable"] = nil,   ["description"] = "A Drill Bit, needs to be used with a Hand Drill"},	
 
-	-- COMPANIONS
-	["pet_shepherd"] 				= {["name"] = "pet_shepherd", 					["label"] = "K9 Unit", 					["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_k9.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "Doggo go woof!"},
-	["pet_cat"] 					= {["name"] = "pet_cat", 						["label"] = "Pet Cat", 					["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_cat.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "Cat go miauw miauw!"},
-	["pet_pug"] 					= {["name"] = "pet_pug", 						["label"] = "Pet Pug", 					["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_pug.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "Doggo go woof!"},
-	["pet_retriever"] 				= {["name"] = "pet_retriever", 					["label"] = "Pet Retriever", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_retriever.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "Doggo go woof!"},
-	["pet_rat"] 					= {["name"] = "pet_rat", 						["label"] = "Pet Rat", 					["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_rat.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "This rat is missing a toe!"},
-	["pet_rottweiler"] 				= {["name"] = "pet_rottweiler", 				["label"] = "Pet Rottweiler", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_rottweiler.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "A fine doggo"},
-	["pet_westy"] 					= {["name"] = "pet_westy", 						["label"] = "Pet Westy", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_westy.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "A fine doggo"},
-	["pet_poodle"] 					= {["name"] = "pet_poodle", 					["label"] = "Pet Poodle", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_poodle.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "A fine doggo"},
-	["pet_rabbit"] 					= {["name"] = "pet_rabbit", 					["label"] = "Pet Rabbit", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_rabbit.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "A fine doggo"},
-	["pet_chicken"] 				= {["name"] = "pet_chicken", 					["label"] = "Pet Chicken", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_chicken.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "Soon to be KFC"},
-	["pet_husky"] 					= {["name"] = "pet_husky", 						["label"] = "Pet Husky", 				["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_husky.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "A fine doggo"},
-	["pet_mtlion"] 					= {["name"] = "pet_mtlion", 					["label"] = "Pet Lionh34rt", 			["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_mtlion.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "Big cat"},
-
+	--Animals
+["rottweiler1"] = {
+    ["name"] = "rottweiler1",
+    ["label"] = "Rottweiler",
+    ["weight"] = 0,
+    ["type"] = "item",
+    ["image"] = "chop.png",
+    ["unique"] = true,
+    ["useable"] = true,
+    ["shouldClose"] = true,
+    ["combinable"] = nil,
+    ["description"] = "Rottweiler"
+},
+["rottweiler2"] = {
+    ["name"] = "rottweiler2",
+    ["label"] = "Rottweiler",
+    ["weight"] = 0,
+    ["type"] = "item",
+    ["image"] = "chop.png",
+    ["unique"] = true,
+    ["useable"] = true,
+    ["shouldClose"] = true,
+    ["combinable"] = nil,
+    ["description"] = "Rottweiler"
+},
+["rottweiler3"] = {
+    ["name"] = "rottweiler3",
+    ["label"] = "Rottweiler",
+    ["weight"] = 0,
+    ["type"] = "item",
+    ["image"] = "chop.png",
+    ["unique"] = true,
+    ["useable"] = true,
+    ["shouldClose"] = true,
+    ["combinable"] = nil,
+    ["description"] = "Rottweiler"
+},
+["cat1"] = {
+     ["name"] = "cat1",
+     ["label"] = "Cat",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "cat.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Cat"
+},
+["cat2"] = {
+     ["name"] = "cat2",
+     ["label"] = "Cat",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "cat.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Cat"
+},
+["cat3"] = {
+     ["name"] = "cat3",
+     ["label"] = "Cat",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "cat.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Cat"
+},
+["chicken"] = {
+     ["name"] = "chicken",
+     ["label"] = "Chicken",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "hen.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Chicken"
+},
+["husky1"] = {
+     ["name"] = "husky1",
+     ["label"] = "Husky",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "husky.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Husky"
+},
+["husky2"] = {
+     ["name"] = "husky2",
+     ["label"] = "Husky",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "husky.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Husky"
+},
+["husky3"] = {
+     ["name"] = "husky3",
+     ["label"] = "Husky",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "husky.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Husky"
+},
+["mtlion1"] = {
+     ["name"] = "mtlion1",
+     ["label"] = "Mountain Lion",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "lion.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Mountain Lion"
+},
+["panther"] = {
+     ["name"] = "panther",
+     ["label"] = "Panther",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "panther.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Panther"
+},
+["poodle"] = {
+     ["name"] = "poodle",
+     ["label"] = "Poodle",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "poodle.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Poodle"
+},
+["shepherd1"] = {
+     ["name"] = "shepherd1",
+     ["label"] = "Shepherd",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "shepherd.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Shepherd"
+},
+["pug1"] = {
+     ["name"] = "pug1",
+     ["label"] = "Pug",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "pug.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Pug"
+},
+["pug2"] = {
+     ["name"] = "pug2",
+     ["label"] = "Pug",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "pug.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Pug"
+},
+["pug3"] = {
+     ["name"] = "pug3",
+     ["label"] = "Pug",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "pug.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Pug"
+},
+["pug4"] = {
+     ["name"] = "pug4",
+     ["label"] = "Pug",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "pug.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Pug"
+},
+["retriever1"] = {
+     ["name"] = "retriever1",
+     ["label"] = "Retriever",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "retriever.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Retriever"
+},
+["retriever2"] = {
+     ["name"] = "retriever2",
+     ["label"] = "Retriever",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "retriever.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Retriever"
+},
+["retriever3"] = {
+     ["name"] = "retriever3",
+     ["label"] = "Retriever",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "retriever.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Retriever"
+},
+["retriever4"] = {
+     ["name"] = "retriever4",
+     ["label"] = "Retriever",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "retriever.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Retriever"
+},
+["westy1"] = {
+     ["name"] = "westy1",
+     ["label"] = "Westy",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "westy.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Westy"
+},
+["westy2"] = {
+     ["name"] = "westy2",
+     ["label"] = "Westy",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "westy.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Westy"
+},
+["westy3"] = {
+     ["name"] = "westy3",
+     ["label"] = "Westy",
+     ["weight"] = 0,
+     ["type"] = "item",
+     ["image"] = "westy.png",
+     ["unique"] = true,
+     ["useable"] = true,
+     ["shouldClose"] = true,
+     ["combinable"] = nil,
+     ["description"] = "Westy"
+},
 	--Drugs
 	["coke_brick"] 					= {["name"] = "coke_brick", 						["label"] = "coke_brick", 					["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_cat.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "Cat go miauw miauw!"},
 	["pet_cat"] 					= {["name"] = "pet_cat", 						["label"] = "Pet Cat", 					["weight"] = 0, 		["type"] = "item", 		["image"] = "pet_cat.png", 				["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,	   	["combinable"] = nil,   ["description"] = "Cat go miauw miauw!"},
@@ -5183,6 +5493,38 @@ Shared.Jobs = {
 	},
 	["cardealer"] = {
 		label = "Car Dealer",
+		payment = 150,
+		grades = {
+            ['0'] = {
+                name = "Salesmen",
+                payment = 900
+            },
+			['1'] = {
+				name = "Boss",
+				isboss = true,
+                payment = 1110
+            },
+        },
+		defaultDuty = true,
+	},
+	["Tuners"] = {
+		label = "Tuners",
+		payment = 150,
+		grades = {
+            ['0'] = {
+                name = "Salesmen",
+                payment = 900
+            },
+			['1'] = {
+				name = "Boss",
+				isboss = true,
+                payment = 1110
+            },
+        },
+		defaultDuty = true,
+	},
+	["Imports"] = {
+		label = "Imports",
 		payment = 150,
 		grades = {
             ['0'] = {
